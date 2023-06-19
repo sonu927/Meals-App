@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+#heading{
+    width: 100%;
+    height: 100px;
+    font-weight: bolder;
+    font-size: x-large;
+    /* margin: 2%; */
+    box-shadow: 0 0 20px rgb(135, 8, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(160, 14, 14);
+}
+#meal-icon{
+    margin-right: 8px;
+    text-align: center;
+}
+#meal-icon i{
+    /* margin-top: 32px; */
+    font-size: 60px;
+
+}
+
+#search-container{
+    display: inline-block;
+    width: 60%;
+    margin-top: 2%;
+    /* border: 2px solid black; */
+    border-right: 2px solid whitesmoke;
+    font-size: large;
+    text-align: center;
+    
+}
+
+#search{
+    height: 40px;
+    width: 70%;
+    background-color: white;
+    padding: 2px;
+    border-radius: 25px;
+    margin-left: 12%;
+}
+#search-box{
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    border: none;
+}
+#search-box:focus{
+    outline: none;
+}
+
+#fav-container{
+    display: inline-block;
+    /* border: 2px solid black; */
+    
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 38%;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+#search-result-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 1%;
+}
+
+
+
+/*Meal Card*/
+#meal-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-top: 2px solid white; */
+    padding: 2%;
+    background-color: rgb(160, 14, 14);
+}
+#meal-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+#meal-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#button-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#detail-btn{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 25px;
+    border-color: aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+}
+.fav-btn{
+    background: none;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#fav-meals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+/* fav meal card*/
+#fav-meal-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-top: 2px solid white; */
+    padding: 2%;
+    background-color: rgb(160, 14, 14);
+}
+#fav-meal-img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+#fav-meal-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#btn-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#det-btn{
+    background: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 25px;
+    border-color: aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* meal detail Card*/
+#meal-detail-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(160, 14, 14);
+    padding: 2%;
+}
+#img-name-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img-container{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+#img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+#footer button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#watch-yt a{
+    text-decoration: none;
+    color: black;
+}
